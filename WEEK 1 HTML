@@ -259,3 +259,325 @@ Q2. DESIGN TIME TABLE OF YOUR CLASS AS IT IS FROM CSIT WEBSITE.
 
 </body>
 </html>
+
+
+
+
+Q3. TO CREATE A HTML FORM 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pNW0xGGml1z9Id/Z9LCA1g5Uwe5X1MBA" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #13daa8;
+            margin: 50px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        .container:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-check-input,
+        .form-check-label {
+            transition: color 0.3s;
+        }
+
+        .form-check-input:hover,
+        .form-check-label:hover {
+            color: #007bff;
+        }
+
+        .btn {
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #007bff;
+        }
+
+        #flags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        .flag {
+            width: 30px;
+            height: 20px;
+            margin-bottom: 5px;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2d3d54; /* Peacock blue */
+            color: black; /* White text */
+        }
+
+        #entryForm {
+            background-color: #04e097; /* Darker blue */
+            border-radius: 15px;
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            animation: fadeInUp 1s ease;
+        }
+
+        #entryForm:hover {
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+        }
+
+        input[type="text"], input[type="password"], select, .form-check-input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+
+        select {
+            background-color: #3c526a; /* Darker blue for select */
+            color: #ffffff; /* White text for select */
+        }
+
+        .form-check-input {
+            margin-top: 5px;
+        }
+
+        .btn-primary {
+            background-color: #2bed0d; /* Dodger blue */
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0ee411; /* Royal blue on hover */
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="mt-4 mb-4 text-center">ENTRY FORM</h2>
+
+    <form id="entryForm">
+        <div class="form-group">
+            <label for="name">Enter your Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Enter your Age:</label>
+            <input type="number" class="form-control" id="age" name="age" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Enter your Address:</label>
+            <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Sex:</label>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="female" name="sex" value="Female" required>
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="male" name="sex" value="Male" required>
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <select class="form-control" id="nationality" name="nationality" required>
+                <option value="" selected disabled>Please select a country</option>
+                <!-- List of countries -->
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <!-- Add more countries as needed -->
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BR">Brazil</option>
+                <option value="BI">Burundi</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="CV">Cape Verde</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CR">Costa Rica</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="TL">East Timor (Timor-Leste)</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GR">Greece</option>
+                <option value="GD">Grenada</option>
+                <option value="GT">Guatemala</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HN">Honduras</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="CI">Ivory Coast</option>
+                
+                
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="languages">Languages Known:</label>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="java" name="languages[]" value="JAVA">
+                <label class="form-check-label" for="java">JAVA</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="asp" name="languages[]" value="ASP">
+                <label class="form-check-label" for="asp">ASP</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="others" name="languages[]" value="OTHERS">
+                <label class="form-check-label" for="others">OTHERS</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="mobile">Enter your Mobile No.:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <select class="custom-select" id="countryCode" name="countryCode" required>
+                        <option value="" selected disabled>Country Code</option>
+                        <option value="+1">+1 (United States)</option>
+                        <option value="+44">+44 (United Kingdom)</option>
+                        <option value="+91">+91 (India)</option>
+                        <!-- Add more country codes as needed -->
+                    </select>
+                </div>
+                <input type="tel" class="form-control" id="mobile" name="mobile" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Enter your Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+
+        <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+        <button type="button" class="btn btn-primary" onclick="validateForm()">Submit</button>
+    </form>
+</div>
+
+<div id="flags">
+    <!-- Flags will be dynamically loaded here based on the selected country -->
+</div>
+
+<script>
+    function resetForm() {
+        document.getElementById("entryForm").reset();
+    }
+
+    function validateForm() {
+        var form = document.getElementById("entryForm");
+        if (form.checkValidity()) {
+            alert("Form submitted successfully!");
+        } else {
+            alert("Please fill in all the required fields.");
+        }
+    }
+</script>
+
+</body>
+</html>
+
