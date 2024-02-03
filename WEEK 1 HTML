@@ -1,0 +1,261 @@
+Q1. DESIGN GEU LOGO FIRST PAGE .
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEU FIRST PAGE </title>
+    <h1 style="font-size:60px;"  > <u>GRAPHIC ERA DEEMED TO BE UNIVERSITY</u></h1>
+    <img src="geu_logo.png" alt="GEU LOGO" >
+    
+
+
+
+    <p>Graphic Era (Deemed to be University) was in existence as Graphic Era Institute of Technology since 1997, with the goal of providing world class-education with a clear focus on cutting-edge technologies, professional development of students, critical thinking and quality research. The University has achieved numerous milestones in its glorious past on the basis of its academic rigor, consistently Top Performing Students and Alumni and an immensely strong and qualified teaching fraternity.</p><br>
+
+        <p>The University has featured in the Top 100 Universities of India, in the coveted National Institutional Ranking Framework established by the Government of India, for the past four years consecutively, with the rankings growing each year across varied domains.</p><br>
+        <p>Graphic Era (Deemed to be University) is based in the magnificent and serene city of Dehradun, nestled in the valley surrounded by Rajaji National Park on one end and Clement Town Cantonment on the other. The University prides itself in its University regime that warrants the holistic development of all the students part
+        of the Graphic Era Fraternity.</p>
+        <a href="https://geu.ac.in/" target="_blank">VISIT GEU </a>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+
+Q2. DESIGN TIME TABLE OF YOUR CLASS AS IT IS FROM CSIT WEBSITE.
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pNW0xGGml1z9Id/Z9LCA1g5Uwe5X1MBA" crossorigin="anonymous">
+    <img src="geu_logo.png" alt="Logo" width="500">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #dddddd;
+            background-color: #ffffff;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .highlight {
+            background-color: #a2d8f9;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 5s0px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<h2 style="text-align: center;">GRAPHIC ERA DEEMED TO BE UNIVERSITY<br>Rev. 0.0</h2>
+<h3 style="text-align: center;">TIME TABLE OF B. TECH. VIth SEMESTER – COMPUTER SCIENCE & ENGG. -G<br>ACADEMIC YEAR 2023-24</h3>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>8:05-9:00</th>
+        <th>9:00-9:55</th>
+        <th>9:55-10:50</th>
+        <th>11:00-12:00</th>
+        <th>12:05-1:00</th>
+        <th>1:00-1:55</th>
+        <th>1:55-2:50</th>
+        <th>3:10-4:00</th>
+        <th>4:00-4:55</th>
+        <th>4:55-5:50</th>
+
+    </tr>
+    <tr>
+        <td>MON</td>
+        <td colspan="2" class="highlight">SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        <td colspan="1" >TCS-693  LT-7</td>
+        <td colspan="2" >Placement Preparation Classes LT-7</td>
+        <td colspan="1" >LUNCH</td>
+        <td colspan="2" >Web Development Lab (G1) New Lab-1 Compiler Design Lab (G2) New Lab-2</td>
+        <td colspan="1" >TCS-601 LT-5</td>
+        <td colspan="1" >TCS-601 LT-5</td>
+        
+        
+    </tr>
+    <tr>
+        <td>TUE</td>
+        <td colspan="2" >TCS-611 (Online)</td>
+        <td colspan="2" class="highlight" >SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        <td colspan="1" >LUNCH</td>
+        <td colspan="1" >TCS-693 LT-7</td>
+        <td colspan="2" >Software Engineering Lab Digital Lab-1</td>
+        <td colspan="1" >Elective</td>
+        <td colspan="1" >Elective</td>
+        
+    </tr>
+    <tr>
+        <td>WED</td>
+        <td colspan="2">Competitive Programming (TOC-601)-Audit Course (Online)</td>
+        <td colspan="1">LIB</td>
+        <td colspan="2">Placement Preparation Classes LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="2">Software Engineering Lab Digital Lab-1</td>
+        <td colspan="1">Elective</td>
+        <td colspan="1">Elective</td>
+        
+    </tr>
+    <tr>
+        <td>THU</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-693 LT-7</td>
+        <td colspan="1">XCS-601 (QAR)  LT-7</td>
+        <td colspan="1">TCS-601 LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="4" class="highlight">SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        
+        
+    </tr>
+    <tr>
+        <td>FRI</td>
+        <td colspan="1">TCS-601</td>
+        <td colspan="1">TCS-693 LT-7</td>
+        <td>XCS-601 (Verbal) LT-7</td>
+        <td colspan="1">XCS-601 (Soft Skills) LT-7</td>
+        <td colspan="1">TCS-611 (Discussion) LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="2">Web Development Lab (G2)  New Lab-1 Compiler Design Lab (G1)  New Lab-2</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-604 LT-7</td>
+    </tr>
+    
+    
+</table>
+</div>
+
+<div style="margin-top: 20px;" class="container">
+    <table>
+        <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>TCS-601</td>
+            <td>Compiler Design</td>
+            <td>Dr. Ankur Choudhary</td>
+        </tr>
+        <tr>
+            <td>TCS-611</td>
+            <td>Software Engineering</td>
+            <td>Dr. Prakash Srivastava</td>
+        </tr>
+        <tr>
+            <td>TCS-604</td>
+            <td>Computer Networks-I</td>
+            <td>Dr. Sumit Pundir</td>
+        </tr>
+        <tr>
+            <td>TCS-693</td>
+            <td>Full Stack Web Development</td>
+            <td>Ms. Tanusha Mittal</td>
+        </tr>
+        <tr>
+            <td>XCS-601</td>
+            <td>Career Skills (QAR/Verbal/Soft Skills)</td>
+            <td>Mr. Saurabh Rawat/Mr. Okesh Chhabra/Dr. Gopal Krishna</td>
+        </tr>
+        <tr>
+            <td>TOC-601</td>
+            <td>Competitive Programming-Audit Course</td>
+            <td>Mr. Akshay Rajput</td>
+        </tr>
+    </table>
+
+    <h3>Elective</h3>
+    <table>
+        <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>TCS-691</td>
+            <td>Image Processing and Computer Vision</td>
+            <td>G1-Dr. Manoj Diwakar (LT-1) & G2 Dr. Vikas Tripathi (LT-2)</td>
+        </tr>
+        <tr>
+            <td>TCS-651</td>
+            <td>Devops on Cloud</td>
+            <td>G2- Ms. Sarishma (LT-5) & G2-Mr. Yogesh Lohumi (LT-6) & G3-Mr. Mohammad Rehan (LT-7)</td>
+        </tr>
+        <tr>
+            <td>TCS-671</td>
+            <td>Bigdata storage and Processing</td>
+            <td>Ms. Garima Sharma (LT-8)</td>
+        </tr>
+        <tr>
+            <td>TCS-619</td>
+            <td>Network and System Security</td>
+            <td>G1-Dr. Mohammad Wazid (Lab-1) & G2- Dr.Rahul Kumar Mishra (LT-9)</td>
+        </tr>
+    </table>
+
+    <h3>Lab</h3>
+    <table>
+        <tr>
+            <th>Lab Code</th>
+            <th>Lab Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>PCS-601</td>
+            <td>Compiler Design Lab</td>
+            <td>Dr. Ankur Choudhary & Mr. Navneet Rajpoot</td>
+        </tr>
+        <tr>
+            <td>PCS-611</td>
+            <td>Software Engineering Lab</td>
+            <td>Dr. Jyoti Agarwal</td>
+        </tr>
+        <tr>
+            <td>PCS-693</td>
+            <td>Web Development Lab</td>
+            <td>Ms. Tanusha Mittal & Mr. Ashwini Kumar</td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
