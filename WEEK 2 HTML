@@ -1,0 +1,207 @@
+Exp No: 4 : Frames & iFrames Aim: To create an html page with different types of frames such as floating frame, navigation frame & mixed frame.
+Problem Statement :
+1. Create an html page named as “frames.html”. Divide the page into two columns of 20%, 80% size. In 20% size call the hyperlinks for “navigationframes.html”, “floatingframes.html”, “mixedframe.html”, “noframe” and make the page to be get displayed on the other column when these links are clicked.
+2. Create an html page named as “navigationframe.html”. Divide the page into two columns of 40%, 60% size. In 40% size call the hyperlink file created in above exercise , and make the page to be get displayed on the other column when the link is clicked.
+3. Create an html page named as “floatingframes.html”. In this file include a paragraph to explain floating frame, and in floating frame include the any html file created in the above exercise as inline.
+SITTTR The above scripts are successfully executed and obtained desired output. Output :-
+4. Create an html page named as “mixedframe.html” . Divide the page into two columns of 25%
+& 75% size. In 25% display an image and divide the 75% into two rows. (50% & 50%). In
+the first 50% display the video file created in previous exercise and other 50% the time table
+created in previous exercise.
+
+
+
+FRAMES. HTML 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <frameset cols="20%,80%" border="20" bordercolor="red">
+            <frame src="navigationframe.html" name="leftFrame" scrolling="auto">
+            <frame src="noframe.html" name="rightframe"  scrolling="auto">
+            <frame src="floatingframes.html" name="belowFrame"  scrolling="auto">
+            <frame src="mixedframe.html" name="belowFrame" scrolling="auto">
+        </frameset>
+       
+
+</html>
+
+___________________
+
+
+navigationframe.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION FRAME </title>
+</head>
+<body>
+    <p>THIS IS NAVIGATION FRAME</p>
+    <h2>Navigation Links</h2>
+    <ul>
+        <li><a href="frames.html" target="rightFrame">frames.html</a></li>
+        <li><a href="floatingframes.html" target="rightFrame">floatingframes.html</a></li>
+        <li><a href="mixedframe.html" target="rightFrame">mixedframe.html</a></li>
+        <li><a href="noframe.html" target="rightFrame">noframe.html</a></li>
+    </ul>
+</body>
+<frameset cols="40%,60%" border="30">
+    <frame src="noframe.html" name="leftFrame" scrolling="auto">
+    <frame src="noframe.html" name="rightFrame" scrolling="auto">
+</frameset>
+
+</html>
+
+_________________________
+
+
+
+noframe.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO FRAME </title>
+</head>
+<body>
+    <P>THIS IS NO FRAME PAGE.</P>
+</body>
+</html>
+
+_____________________
+
+floatingframes.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOATING  FRAMES</title>
+</head>
+<body>
+    <P>THIS IS A FLOATING FRAME</P>
+</body>
+</html>
+
+
+__________________
+
+
+mixedframe.html
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIXED FRAME </title>
+</head>
+<body>
+    <P>THIS IS A MIXED FRAME </P>
+</body>
+</html>
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q. write a code in HTMl to refresh web page or reload web page after 10 second automatically.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10;url=https://example.com/new-page">
+    <title>Auto Refresh Example</title>
+    
+</head>
+<body>
+    <h1>This page will automatically refresh every 10 seconds.</h1>
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q. write a code to n html to redirect a page after 5 seconds of reloading.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5;url=https://example.com/new-page">
+    <title>Redirect Example</title>
+</head>
+<body>
+    <h1>This page will redirect to a new page after 5 seconds.</h1>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q. write a code in HTML to add fevicone in web page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAVICON </title>
+    <link rel="icon " href="geu_logo.ico" type="image/x-icon" >
+    
+</head>
+<p>Graphic Era (Deemed to be University) was in existence as Graphic Era Institute of Technology since 1997, with the goal of providing world class-education with a clear focus on cutting-edge technologies, professional development of students, critical thinking and quality research. The University has achieved numerous milestones in its glorious past on the basis of its academic rigor, consistently Top Performing Students and Alumni and an immensely strong and qualified teaching fraternity.
+
+    The University has featured in the Top 100 Universities of India, in the coveted National Institutional Ranking Framework established by the Government of India, for the past four years consecutively, with the rankings growing each year across varied domains.
+    
+    Graphic Era (Deemed to be University) is based in the magnificent and serene city of Dehradun, nestled in the valley surrounded by Rajaji National Park on one end and Clement Town Cantonment on the other. The University prides itself in its University regime that warrants the holistic development of all the students part
+    of the Graphic Era Fraternity.
+    
+    </p>
+    stylename {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #006;
+      }
+      <p class="stylename"> 
+      
+
+    
+<body>
+    
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
