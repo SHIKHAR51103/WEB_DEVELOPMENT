@@ -1,0 +1,317 @@
+SIMPLE CALCULATOR 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    #calculator {
+      border: 2px solid #333;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+    }
+
+    #display {
+      font-size: 2em;
+      padding: 10px;
+      text-align: right;
+      background-color: #eee;
+    }
+
+    #buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 15px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button.operator {
+      background-color: #ff704d;
+      color: #fff;
+    }
+
+    button.double {
+      grid-column: span 2;
+    }
+
+    button.equals {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<div id="calculator">
+  <div id="display">0</div>
+  <div id="buttons">
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="appendSymbol('/')" class="operator">/</button>
+    <button onclick="appendSymbol('*')" class="operator">*</button>
+    <button onclick="appendSymbol('-')" class="operator">-</button>
+    <button onclick="appendSymbol('7')">7</button>
+    <button onclick="appendSymbol('8')">8</button>
+    <button onclick="appendSymbol('9')">9</button>
+    <button onclick="appendSymbol('+')" class="operator">+</button>
+    <button onclick="appendSymbol('4')">4</button>
+    <button onclick="appendSymbol('5')">5</button>
+    <button onclick="appendSymbol('6')">6</button>
+    <button onclick="equals()" class="equals">=</button>
+    <button onclick="appendSymbol('1')">1</button>
+    <button onclick="appendSymbol('2')">2</button>
+    <button onclick="appendSymbol('3')">3</button>
+    <button onclick="appendSymbol('0')" class="double">0</button>
+    <button onclick="appendSymbol('.')">.</button>
+  </div>
+</div>
+
+<script>
+  let display = document.getElementById('display');
+  let currentValue = '0';
+
+  function clearDisplay() {
+    currentValue = '0';
+    updateDisplay();
+  }
+
+  function appendSymbol(symbol) {
+    if (currentValue === '0') {
+      currentValue = symbol;
+    } else {
+      currentValue += symbol;
+    }
+    updateDisplay();
+  }
+
+  function equals() {
+    try {
+      currentValue = eval(currentValue).toString();
+      updateDisplay();
+    } catch (error) {
+      currentValue = 'Error';
+      updateDisplay();
+    }
+  }
+
+  function updateDisplay() {
+    display.textContent = currentValue;
+  }
+</script>
+
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+SCIENTIFIC CALCULATOR 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #15b075;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #calculator {
+      border: 2px solid #555;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      background-color: #333;
+      width: 400px;
+    }
+
+    #display {
+      font-size: 2em;
+      padding: 15px;
+      text-align: right;
+      background-color: #444;
+    }
+
+    #buttons {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 15px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    button.operator {
+      background-color: #ff704d;
+      color: #fff;
+    }
+
+    button.double {
+      grid-column: span 2;
+    }
+
+    button.equals {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    button.function {
+      background-color: #4285f4;
+      color: #fff;
+    }
+
+    button.clear {
+      background-color: #d32f2f;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div id="calculator">
+  <div id="display">0</div>
+  <div id="buttons">
+    <button onclick="clearDisplay()" class="clear">C</button>
+    <button onclick="appendSymbol('exp')" class="function">e^x</button>
+    <button onclick="appendSymbol('sqrt')" class="function">√</button>
+    <button onclick="appendSymbol('log')" class="function">log</button>
+    <button onclick="appendSymbol('7')">7</button>
+    <button onclick="appendSymbol('8')">8</button>
+    <button onclick="appendSymbol('9')">9</button>
+    <button onclick="appendSymbol('/')">/</button>
+    <button onclick="appendSymbol('4')">4</button>
+    <button onclick="appendSymbol('5')">5</button>
+    <button onclick="appendSymbol('6')">6</button>
+    <button onclick="appendSymbol('*')">*</button>
+    <button onclick="appendSymbol('1')">1</button>
+    <button onclick="appendSymbol('2')">2</button>
+    <button onclick="appendSymbol('3')">3</button>
+    <button onclick="appendSymbol('-')" class="operator">-</button>
+    <button onclick="appendSymbol('0')">0</button>
+    <button onclick="appendSymbol('.')">.</button>
+    <button onclick="equals()" class="equals">=</button>
+    <button onclick="appendSymbol('+')" class="operator">+</button>
+    <button onclick="appendSymbol('sin')" class="function">sin</button>
+    <button onclick="appendSymbol('cos')" class="function">cos</button>
+    <button onclick="appendSymbol('tan')" class="function">tan</button>
+    <button onclick="openParenthesis()" class="double">(</button>
+    <button onclick="closeParenthesis()" class="double">)</button>
+  </div>
+</div>
+
+<script>
+  let display = document.getElementById('display');
+let currentValue = '0';
+
+function clearDisplay() {
+  currentValue = '0';
+  updateDisplay();
+}
+
+function appendSymbol(symbol) {
+  if (currentValue === '0' || currentValue === 'Error') {
+    currentValue = symbol;
+  } else {
+    currentValue += symbol;
+  }
+  updateDisplay();
+}
+
+function equals() {
+  try {
+    currentValue = eval(currentValue).toString();
+    updateDisplay();
+  } catch (error) {
+    currentValue = 'Error';
+    updateDisplay();
+  }
+}
+
+function openParenthesis() {
+  currentValue += '(';
+  updateDisplay();
+}
+
+function closeParenthesis() {
+  currentValue += ')';
+  updateDisplay();
+}
+
+function calculateFunction(func) {
+  const input = parseFloat(currentValue);
+  switch (func) {
+    case 'exp':
+      currentValue = Math.exp(input).toString();
+      break;
+    case 'sqrt':
+      currentValue = Math.sqrt(input).toString();
+      break;
+    case 'log':
+      currentValue = Math.log10(input).toString();
+      break;
+    case 'sin':
+      currentValue = Math.sin(input).toString();
+      break;
+    case 'cos':
+      currentValue = Math.cos(input).toString();
+      break;
+    case 'tan':
+      currentValue = Math.tan(input).toString();
+      break;
+    default:
+      currentValue = 'Error';
+  }
+  updateDisplay();
+}
+
+function updateDisplay() {
+  display.textContent = currentValue;
+}
+</script>
+
+</body>
+</html>
