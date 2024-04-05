@@ -1,0 +1,2723 @@
+NAME : SHIKHAR AGARWAL
+UNIV. ROLL NO. : 2019096
+SECTION : G
+
+
+Exp No: 1 : Basic Html Tags Aim: 
+To create a simple html file to demonstrate the use of different tags.
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEU FIRST PAGE </title>
+    <h1 style="font-size:60px;"  > <u>GRAPHIC ERA DEEMED TO BE UNIVERSITY</u></h1>
+    <img src="geu_logo.png" alt="GEU LOGO" >
+    
+<p>Graphic Era (Deemed to be University) was in existence as Graphic Era Institute of Technology since 1997, with the goal of providing world class-education with a clear focus on cutting-edge technologies, professional development of students, critical thinking and quality research. The University has achieved numerous milestones in its glorious past on the basis of its academic rigor, consistently Top Performing Students and Alumni and an immensely strong and qualified teaching fraternity.</p><br>
+
+        <p>The University has featured in the Top 100 Universities of India, in the coveted National Institutional Ranking Framework established by the Government of India, for the past four years consecutively, with the rankings growing each year across varied domains.</p><br>
+        <p>Graphic Era (Deemed to be University) is based in the magnificent and serene city of Dehradun, nestled in the valley surrounded by Rajaji National Park on one end and Clement Town Cantonment on the other. The University prides itself in its University regime that warrants the holistic development of all the students part
+        of the Graphic Era Fraternity.</p>
+        <a href="https://geu.ac.in/" target="_blank">VISIT GEU </a>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exp No: 2 : Html Tags (List, Table) Aim: To create a simple html file to demonstrate the use of different tags.
+
+INPUT  : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pNW0xGGml1z9Id/Z9LCA1g5Uwe5X1MBA" crossorigin="anonymous">
+    <img src="geu_logo.ico" alt="Logo" width="500">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #dddddd;
+            background-color: #ffffff;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .highlight {
+            background-color: #a2d8f9;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 5s0px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<h2 style="text-align: center;">GRAPHIC ERA DEEMED TO BE UNIVERSITY<br>Rev. 0.0</h2>
+<h3 style="text-align: center;">TIME TABLE OF B. TECH. VIth SEMESTER – COMPUTER SCIENCE & ENGG. -G<br>ACADEMIC YEAR 2023-24</h3>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>8:05-9:00</th>
+        <th>9:00-9:55</th>
+        <th>9:55-10:50</th>
+        <th>11:00-12:00</th>
+        <th>12:05-1:00</th>
+        <th>1:00-1:55</th>
+        <th>1:55-2:50</th>
+        <th>3:10-4:00</th>
+        <th>4:00-4:55</th>
+        <th>4:55-5:50</th>
+
+    </tr>
+    <tr>
+        <td>MON</td>
+        <td colspan="2" class="highlight">SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        <td colspan="1" >TCS-693  LT-7</td>
+        <td colspan="2" >Placement Preparation Classes LT-7</td>
+        <td colspan="1" >LUNCH</td>
+        <td colspan="2" >Web Development Lab (G1) New Lab-1 Compiler Design Lab (G2) New Lab-2</td>
+        <td colspan="1" >TCS-601 LT-5</td>
+        <td colspan="1" >TCS-601 LT-5</td>
+        
+        
+    </tr>
+    <tr>
+        <td>TUE</td>
+        <td colspan="2" >TCS-611 (Online)</td>
+        <td colspan="2" class="highlight" >SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        <td colspan="1" >LUNCH</td>
+        <td colspan="1" >TCS-693 LT-7</td>
+        <td colspan="2" >Software Engineering Lab Digital Lab-1</td>
+        <td colspan="1" >Elective</td>
+        <td colspan="1" >Elective</td>
+        
+    </tr>
+    <tr>
+        <td>WED</td>
+        <td colspan="2">Competitive Programming (TOC-601)-Audit Course (Online)</td>
+        <td colspan="1">LIB</td>
+        <td colspan="2">Placement Preparation Classes LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="2">Software Engineering Lab Digital Lab-1</td>
+        <td colspan="1">Elective</td>
+        <td colspan="1">Elective</td>
+        
+    </tr>
+    <tr>
+        <td>THU</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-693 LT-7</td>
+        <td colspan="1">XCS-601 (QAR)  LT-7</td>
+        <td colspan="1">TCS-601 LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="4" class="highlight">SWAYAM/Training/Extra-Curricular Activities/LIB</td>
+        
+        
+    </tr>
+    <tr>
+        <td>FRI</td>
+        <td colspan="1">TCS-601</td>
+        <td colspan="1">TCS-693 LT-7</td>
+        <td>XCS-601 (Verbal) LT-7</td>
+        <td colspan="1">XCS-601 (Soft Skills) LT-7</td>
+        <td colspan="1">TCS-611 (Discussion) LT-7</td>
+        <td colspan="1">LUNCH</td>
+        <td colspan="2">Web Development Lab (G2)  New Lab-1 Compiler Design Lab (G1)  New Lab-2</td>
+        <td colspan="1">TCS-604 LT-7</td>
+        <td colspan="1">TCS-604 LT-7</td>
+    </tr>
+    
+    
+</table>
+</div>
+
+<div style="margin-top: 20px;" class="container">
+    <table>
+        <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>TCS-601</td>
+            <td>Compiler Design</td>
+            <td>Dr. Ankur Choudhary</td>
+        </tr>
+        <tr>
+            <td>TCS-611</td>
+            <td>Software Engineering</td>
+            <td>Dr. Prakash Srivastava</td>
+        </tr>
+        <tr>
+            <td>TCS-604</td>
+            <td>Computer Networks-I</td>
+            <td>Dr. Sumit Pundir</td>
+        </tr>
+        <tr>
+            <td>TCS-693</td>
+            <td>Full Stack Web Development</td>
+            <td>Ms. Tanusha Mittal</td>
+        </tr>
+        <tr>
+            <td>XCS-601</td>
+            <td>Career Skills (QAR/Verbal/Soft Skills)</td>
+            <td>Mr. Saurabh Rawat/Mr. Okesh Chhabra/Dr. Gopal Krishna</td>
+        </tr>
+        <tr>
+            <td>TOC-601</td>
+            <td>Competitive Programming-Audit Course</td>
+            <td>Mr. Akshay Rajput</td>
+        </tr>
+    </table>
+
+    <h3>Elective</h3>
+    <table>
+        <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>TCS-691</td>
+            <td>Image Processing and Computer Vision</td>
+            <td>G1-Dr. Manoj Diwakar (LT-1) & G2 Dr. Vikas Tripathi (LT-2)</td>
+        </tr>
+        <tr>
+            <td>TCS-651</td>
+            <td>Devops on Cloud</td>
+            <td>G2- Ms. Sarishma (LT-5) & G2-Mr. Yogesh Lohumi (LT-6) & G3-Mr. Mohammad Rehan (LT-7)</td>
+        </tr>
+        <tr>
+            <td>TCS-671</td>
+            <td>Bigdata storage and Processing</td>
+            <td>Ms. Garima Sharma (LT-8)</td>
+        </tr>
+        <tr>
+            <td>TCS-619</td>
+            <td>Network and System Security</td>
+            <td>G1-Dr. Mohammad Wazid (Lab-1) & G2- Dr.Rahul Kumar Mishra (LT-9)</td>
+        </tr>
+    </table>
+
+    <h3>Lab</h3>
+    <table>
+        <tr>
+            <th>Lab Code</th>
+            <th>Lab Name</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>PCS-601</td>
+            <td>Compiler Design Lab</td>
+            <td>Dr. Ankur Choudhary & Mr. Navneet Rajpoot</td>
+        </tr>
+        <tr>
+            <td>PCS-611</td>
+            <td>Software Engineering Lab</td>
+            <td>Dr. Jyoti Agarwal</td>
+        </tr>
+        <tr>
+            <td>PCS-693</td>
+            <td>Web Development Lab</td>
+            <td>Ms. Tanusha Mittal & Mr. Ashwini Kumar</td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exp No: 3 : Html Tags (Form) Aim: To create a simple html file to demonstrate the use of different tags.
+
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pNW0xGGml1z9Id/Z9LCA1g5Uwe5X1MBA" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="mt-4 mb-4 text-center">ENTRY FORM</h2>
+
+    <form id="entryForm">
+        <div class="form-group">
+            <label for="name">Enter your Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Enter your Age:</label>
+            <input type="number" class="form-control" id="age" name="age" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Enter your Address:</label>
+            <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Sex:</label>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="female" name="sex" value="Female" required>
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="male" name="sex" value="Male" required>
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <select class="form-control" id="nationality" name="nationality" required>
+                <option value="" selected disabled>Please select a country</option>
+                <!-- List of countries -->
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <!-- Add more countries as needed -->
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BR">Brazil</option>
+                <option value="BI">Burundi</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="CV">Cape Verde</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CR">Costa Rica</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="TL">East Timor (Timor-Leste)</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GR">Greece</option>
+                <option value="GD">Grenada</option>
+                <option value="GT">Guatemala</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HN">Honduras</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="CI">Ivory Coast</option>
+                
+                
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="languages">Languages Known:</label>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="java" name="languages[]" value="JAVA">
+                <label class="form-check-label" for="java">JAVA</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="asp" name="languages[]" value="ASP">
+                <label class="form-check-label" for="asp">ASP</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="others" name="languages[]" value="OTHERS">
+                <label class="form-check-label" for="others">OTHERS</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="mobile">Enter your Mobile No.:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <select class="custom-select" id="countryCode" name="countryCode" required>
+                        <option value="" selected disabled>Country Code</option>
+                        <option value="+1">+1 (United States)</option>
+                        <option value="+44">+44 (United Kingdom)</option>
+                        <option value="+91">+91 (India)</option>
+                        <!-- Add more country codes as needed -->
+                    </select>
+                </div>
+                <input type="tel" class="form-control" id="mobile" name="mobile" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Enter your Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+
+        <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+        <button type="button" class="btn btn-primary" onclick="validateForm()">Submit</button>
+    </form>
+</div>
+
+<div id="flags">
+    <!-- Flags will be dynamically loaded here based on the selected country -->
+</div>
+
+<script>
+    function resetForm() {
+        document.getElementById("entryForm").reset();
+    }
+
+    function validateForm() {
+        var form = document.getElementById("entryForm");
+        if (form.checkValidity()) {
+            alert("Form submitted successfully!");
+        } else {
+            alert("Please fill in all the required fields.");
+        }
+    }
+</script>
+
+</body>
+</html>
+
+CSS : 
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #19b996;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group-prepend {
+    margin-right: 5px;
+}
+
+.custom-select {
+    width: 30%;
+}
+
+.btn {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#flags {
+    margin-top: 20px;
+}
+
+/* Simple animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exp No: 4 : Frames & iFrames Aim: To create an html page with different types of frames such as floating frame, navigation frame & mixed frame.
+Problem Statement :
+1. Create an html page named as “frames.html”. Divide the page into two columns of 20%, 80% size. In 20% size call the hyperlinks for “navigationframes.html”, “floatingframes.html”, “mixedframe.html”, “noframe” and make the page to be get displayed on the other column when these links are clicked.
+SITTTR </form> </body> </html> Result :- The above scripts are successfully executed and obtained desired output. Output :-
+2. Create an html page named as “navigationframe.html”. Divide the page into two columns of 40%, 60% size. In 40%
+size call the hyperlink file created in above exercise , and make the page to be get displayed on the other column
+when the link is clicked.
+3. Create an html page named as “floatingframes.html”. In this file include a paragraph to explain floating frame, and
+in floating frame include the any html file created in the above exercise as inline.
+4. Create an html page named as “mixedframe.html” . Divide the page into two columns of 25% & 75% size. In 25%
+display an image and divide the 75% into two rows. (50% & 50%). In the first 50% display the video file created in
+previous exercise and other 50% the time table created in previous exercise.
+
+INPUT : 
+
+FRAMES.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <frameset cols="20%,80%" border="20" bordercolor="red">
+            <frame src="navigationframe.html" name="leftFrame" scrolling="auto">
+            <frame src="noframe.html" name="rightframe"  scrolling="auto">
+            <frame src="floatingframes.html" name="belowFrame"  scrolling="auto">
+            <frame src="mixedframe.html" name="belowFrame" scrolling="auto">
+        </frameset>
+       
+
+</html>
+
+
+
+Navigationframe.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION FRAME </title>
+</head>
+<body>
+    <p>THIS IS NAVIGATION FRAME</p>
+    <h2>Navigation Links</h2>
+    <ul>
+        <li><a href="frames.html" target="rightFrame">frames.html</a></li>
+        <li><a href="floatingframes.html" target="rightFrame">floatingframes.html</a></li>
+        <li><a href="mixedframe.html" target="rightFrame">mixedframe.html</a></li>
+        <li><a href="noframe.html" target="rightFrame">noframe.html</a></li>
+    </ul>
+</body>
+<frameset cols="40%,60%" border="30">
+    <frame src="noframe.html" name="leftFrame" scrolling="auto">
+    <frame src="noframe.html" name="rightFrame" scrolling="auto">
+</frameset>
+
+</html>
+
+noframe.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO FRAME </title>
+</head>
+<body>
+    <P>THIS IS NO FRAME PAGE.</P>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+floatingframes.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOATING  FRAMES</title>
+</head>
+<body>
+    <P>THIS IS A FLOATING FRAME</P>
+</body>
+</html>
+
+
+Mixedframe.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIXED FRAME </title>
+</head>
+<body>
+    <P>THIS IS A MIXED FRAME </P>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+REDIRECT.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5;url=https://example.com/new-page">
+    <title>Redirect Example</title>
+</head>
+<body>
+    <h1>This page will redirect to a new page after 5 seconds.</h1>
+</body>
+</html>
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+REFRESH.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10;url=https://example.com/new-page">
+    <title>Auto Refresh Example</title>
+    
+</head>
+<body>
+    <h1>This page will automatically refresh every 10 seconds.</h1>
+</body>
+</html>
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAVICON.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAVICON </title>
+    <link rel="icon " href="geu_logo.ico" type="image/x-icon" >
+    
+</head>
+<p>Graphic Era (Deemed to be University) was in existence as Graphic Era Institute of Technology since 1997, with the goal of providing world class-education with a clear focus on cutting-edge technologies, professional development of students, critical thinking and quality research. The University has achieved numerous milestones in its glorious past on the basis of its academic rigor, consistently Top Performing Students and Alumni and an immensely strong and qualified teaching fraternity.
+
+    The University has featured in the Top 100 Universities of India, in the coveted National Institutional Ranking Framework established by the Government of India, for the past four years consecutively, with the rankings growing each year across varied domains.
+    
+    Graphic Era (Deemed to be University) is based in the magnificent and serene city of Dehradun, nestled in the valley surrounded by Rajaji National Park on one end and Clement Town Cantonment on the other. The University prides itself in its University regime that warrants the holistic development of all the students part
+    of the Graphic Era Fraternity.
+    
+    </p>
+    stylename {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #006;
+      }
+      <p class="stylename"> 
+      
+
+    
+<body>
+    
+</body>
+</html>
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exp No: 5 : Map Aim: To create an html page with different types of image map such as circle, rect , poly & mixed map.
+Problem Statement :
+1. To display an image on the website and construct a map for all circle buttons, develop the "dialler.html" HTML page. When you click on a circle, a message with a button number, such as "you push button 1," will appear.
+
+
+INPUT : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialler</title>
+    <style>
+        .dial-button {
+            
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            
+            cursor: pointer;
+        }
+        #Dialler {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo2"></p>
+    <div id="Dialler">
+    <div class="dial-button" id="button1" onclick="showMessage(1)" onmouseout="clear()">1</div>
+    <div class="dial-button" id="button2" onclick="showMessage(2)"onmouseout="clear()">2</div>
+    <div class="dial-button" id="button3" onclick="showMessage(3)"onmouseout="clear()">3</div>
+    <br>
+    <div class="dial-button" id="button4" onclick="showMessage(4)"onmouseout="clear()">4</div>
+    <div class="dial-button" id="button5" onclick="showMessage(5)"onmouseout="clear()">5</div>
+    <div class="dial-button" id="button6" onclick="showMessage(6)"onmouseout="clear()">6</div>
+    <br>
+    <div class="dial-button" id="button7" onclick="showMessage(7)"onmouseout="clear()">7</div>
+    <div class="dial-button" id="button8" onclick="showMessage(8)"onmouseout="clear()">8</div>
+    <div class="dial-button" id="button9" onclick="showMessage(9)"onmouseout="clear()">9</div>
+    <br>
+    <div class="dial-button" id="button-star" onclick="showMessage('*')"onmouseout="clear()">*</div>
+    <div class="dial-button" id="button0" onclick="showMessage(0)"onmouseout="clear()">0</div>
+    <div class="dial-button" id="button-hash" onclick="showMessage('#')"onmouseout="clear()">#</div>
+</div>
+<p id="demo"></p>
+    <script>
+        function showMessage(buttonNumber) {
+            document.getElementById("demo2").innerHTML ="You pressed "+ buttonNumber;
+        }
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exp No: 6 : : Inline, Internal and External Style sheets Aim: To create an html file by applying the different styles using inline, external & internal style sheets.
+Problem Statement :-
+1. Create an external style sheet named as “external_css.css” and provide some styles for h2, hr, p & a tags.
+2. Create an html file named as “4Style_sheet.html”
+1. Include the external style sheet with necessary tag.
+2. Include the internal style sheet for body tags & also use class name, so that the style can be applied for all tags.
+3. Include <p> tags with inline style sheets
+
+
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border:3px solid red;
+            background-color: yellow;
+            color: green;
+            padding: 10px 10px 10px 10px;
+        }
+        nav{
+            color:red;
+        }
+      #one{
+        border: 2px dotted red;
+        background-color: pink;
+        color:purple;
+      }
+      #two{
+        color:red;
+      }
+      ol{
+        border:5px dashed blue;
+        color:red;
+        background-color:greenyellow;
+        padding: 10px 10px 10px 10px;
+      }
+      span{
+        text-transform: capitalize;
+        text-emphasis:bold ;
+      }
+    </style>
+</head>
+<body>
+    <h1 align="center">This Is My Stylish Website</h1>
+    <nav>
+        <a href = "dbms/index.htm">Home</a> |
+        <a href = "mongodb/index.htm">Backgrounds</a> |
+        <a href = "mysql/index.htm">Lists</a> |
+        <a href = "plsql/index.htm">Id vs Classes</a> |
+     </nav>
+   <p id="one"> This website is about me!</p>
+  <p id="two"> My Top Three Favourite Things To Do.</p>
+  <ol type="1">
+    <li> <span>T</span>ravel</li>
+    <li> <span>E</span>at ice cream</li>
+    <li> <span>R</span>ead a book</li>
+  </ol>
+</body>
+</html>
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex No: 9 Input Output In JavaScript
+Aim: To create an HTML page to explain input and output using a calculator with the use of various predefined functions and objects in Javascript.
+
+SIMPLE CALCULATOR 
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #15b075;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #calculator {
+      border: 2px solid #555;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      background-color: #333;
+      width: 400px;
+    }
+
+    #display {
+      font-size: 2em;
+      padding: 15px;
+      text-align: right;
+      background-color: #444;
+    }
+
+    #buttons {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 15px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    button.operator {
+      background-color: #ff704d;
+      color: #fff;
+    }
+
+    button.double {
+      grid-column: span 2;
+    }
+
+    button.equals {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    button.function {
+      background-color: #4285f4;
+      color: #fff;
+    }
+
+    button.clear {
+      background-color: #d32f2f;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div id="calculator">
+  <div id="display">0</div>
+  <div id="buttons">
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="appendSymbol('/')" class="operator">/</button>
+    <button onclick="appendSymbol('*')" class="operator">*</button>
+    <button onclick="appendSymbol('-')" class="operator">-</button>
+    <button onclick="appendSymbol('+')" class="operator">+</button>
+    <button onclick="equals()" class="equals">=</button>
+    <button onclick="appendSymbol('9')">9</button>
+    <button onclick="appendSymbol('8')">8</button>
+    <button onclick="appendSymbol('7')">7</button>
+   
+    <button onclick="appendSymbol('6')">6</button>
+    <button onclick="appendSymbol('5')">5</button>
+    <button onclick="appendSymbol('4')">4</button>
+   
+   
+    <button onclick="appendSymbol('3')">3</button>
+    <button onclick="appendSymbol('2')">2</button>
+    <button onclick="appendSymbol('1')">1</button>
+    
+    <button onclick="appendSymbol('0')" class="double">0</button>
+    <button onclick="appendSymbol('.')">.</button>
+  </div>
+</div>
+
+<script>
+  let display = document.getElementById('display');
+  let currentValue = '0';
+
+  function clearDisplay() {
+    currentValue = '0';
+    updateDisplay();
+  }
+
+  function appendSymbol(symbol) {
+    if (currentValue === '0') {
+      currentValue = symbol;
+    } else {
+      currentValue += symbol;
+    }
+    updateDisplay();
+  }
+
+  function equals() {
+    try {
+      currentValue = eval(currentValue).toString();
+      updateDisplay();
+    } catch (error) {
+      currentValue = 'Error';
+      updateDisplay();
+    }
+  }
+
+  function updateDisplay() {
+    display.textContent = currentValue;
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCIENTIFIC CALCULATOR 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator</title>
+  <style>
+    
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #15b075;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #calculator {
+      border: 2px solid #555;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      background-color: #333;
+      width: 400px;
+    }
+
+    #display {
+      font-size: 2em;
+      padding: 15px;
+      text-align: right;
+      background-color: #444;
+    }
+
+    #buttons {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 15px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    button.operator {
+      background-color: #ff704d;
+      color: #fff;
+    }
+
+    button.double {
+      grid-column: span 2;
+    }
+
+    button.equals {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    button.function {
+      background-color: #4285f4;
+      color: #fff;
+    }
+
+    button.clear {
+      background-color: #d32f2f;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div id="calculator">
+  <div id="display">0</div>
+  <div id="buttons">
+    <!-- Buttons and their onclick handlers remain unchanged -->
+    <button onclick="clearDisplay()" class="clear">C</button>
+    <button onclick="calculateFunction('exp')" class="function">e^x</button>
+    <button onclick="calculateFunction('sqrt')" class="function">√</button>
+    <button onclick="calculateFunction('log')" class="function">log</button>
+    <button onclick="calculateFunction('sin')" class="function">sin</button>
+    <button onclick="calculateFunction('cos')" class="function">cos</button>
+    <button onclick="calculateFunction('tan')" class="function">tan</button>
+    <button onclick="appendSymbol('/')" class="operator">/</button>
+    <button onclick="appendSymbol('*')" class="operator">*</button>
+    <button onclick="appendSymbol('-')" class="operator">-</button>
+    <button onclick="appendSymbol('+')" class="operator">+</button>
+    <button onclick="equals()" class="equals">=</button>
+    <button onclick="appendSymbol('9')">9</button>
+    <button onclick="appendSymbol('8')">8</button>
+    <button onclick="appendSymbol('7')">7</button>
+   
+    <button onclick="appendSymbol('6')">6</button>
+    <button onclick="appendSymbol('5')">5</button>
+    <button onclick="appendSymbol('4')">4</button>
+   
+   
+    <button onclick="appendSymbol('3')">3</button>
+    <button onclick="appendSymbol('2')">2</button>
+    <button onclick="appendSymbol('1')">1</button>
+    
+    <button onclick="appendSymbol('0')" class="double">0</button>
+    <button onclick="appendSymbol('.')">.</button>
+    <button onclick="openParenthesis()" class="double">(</button>
+    <button onclick="closeParenthesis()" class="double">)</button>
+  </div>
+</div>
+
+<script>
+  let display = document.getElementById('display');
+  let currentValue = '0';
+
+  function clearDisplay() {
+    currentValue = '0';
+    updateDisplay();
+  }
+
+  function appendSymbol(symbol) {
+    if (currentValue === '0' || currentValue === 'Error') {
+      currentValue = symbol;
+    } else {
+      currentValue += symbol;
+    }
+    updateDisplay();
+  }
+
+  function equals() {
+    try {
+      currentValue = eval(currentValue).toString();
+      updateDisplay();
+    } catch (error) {
+      currentValue = 'Error';
+      updateDisplay();
+    }
+  }
+
+  function openParenthesis() {
+    currentValue += '(';
+    updateDisplay();
+  }
+
+  function closeParenthesis() {
+    currentValue += ')';
+    updateDisplay();
+  }
+
+  function calculateFunction(func) {
+    const input = parseFloat(currentValue);
+    let result;
+
+    switch (func) {
+      case 'exp':
+        result = Math.exp(input);
+        break;
+      case 'sqrt':
+        if (input >= 0) {
+          result = Math.sqrt(input);
+        } else {
+          result = 'Error';
+        }
+        break;
+      case 'log':
+        if (input > 0) {
+          result = Math.log10(input);
+        } else {
+          result = 'Error';
+        }
+        break;
+      case 'sin':
+        result = Math.sin((Math.PI / 180) * input);
+        break;
+      case 'cos':
+        result = Math.cos((Math.PI / 180) * input);
+        break;
+      case 'tan':
+        result = Math.tan((Math.PI / 180) * input);
+        break;
+      default:
+        result = 'Error';
+    }
+
+    if (!isNaN(result) && isFinite(result)) {
+      currentValue = result.toString();
+    } else {
+      currentValue = 'Error';
+    }
+
+    updateDisplay();
+  }
+
+  function updateDisplay() {
+    display.textContent = currentValue;
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex No: 10 Window Object methods alert() , prompt() , confirm(), open(), close() , print(),
+Aim: To create an html page to explain the use of various predefined functions in window object in java script.
+Create an html page named as “window.html” and within the script tag.
+1. Use different window object.
+
+
+INPUT : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object Methods</title>
+</head>
+<body>
+    <h1>Window Object Methods</h1>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="showPrompt()">Show Prompt</button>
+    <button onclick="showConfirm()">Show Confirm</button>
+    <button onclick="openWindow()">Open Window</button>
+    <button onclick="closeWindow()">Close Window</button>
+    <button onclick="printPage()">Print Page</button>
+
+    <script>
+        function showAlert() {
+            window.alert("This is an alert!");
+        }
+
+        function showPrompt() {
+            var result = window.prompt("Enter your name:", "John Doe");
+            if (result !== null) {
+                alert("Hello, " + result + "!");
+            }
+        }
+
+        function showConfirm() {
+            var result = window.confirm("Are you sure?");
+            if (result) {
+                alert("You clicked OK!");
+            } else {
+                alert("You clicked Cancel!");
+            }
+        }
+
+        function openWindow() {
+            window.open("https://www.example.com", "_blank", "width=500,height=500");
+        }
+
+        function closeWindow() {
+            window.close();
+        }
+
+        function printPage() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex No: 11 : Event Handling - Background Color Change
+Aim: To create an html page to change the background color for every click of a button using
+javascript.
+Problem Statement:
+1. Create a html page named as changebackground_color.html 2. Define a method named as random_color() which is to be called when you click on the body.
+This method should generate random number, which is used to set the background color.
+
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onclick="random_color()">
+    <h1>Click Anywhere to Change Background Color</h1>
+    <script>
+        function random_color() {
+            var red = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+            var bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+            document.body.style.backgroundColor = bgColor;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex No: 12 : Event Handling - calendar for the month and year by combo box
+Aim: To create an html page with 2 combo box populated with month & year, to display the calendar
+for the selected month & year from combo box using javascript.
+Problem Statement:
+Create a html file named as “Claendar_month.html”
+1. Add two combo box one to display month & another for year and one button.
+2. When the button is clicked display the calendar for the selected values.
+
+
+INPUT : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar for Month and Year</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-size: 18px;
+            color: #333;
+            margin-right: 10px;
+        }
+        select, button {
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        select:hover, button:hover {
+            background-color: #45a049;
+        }
+        select:focus, button:focus {
+            outline: none;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td:hover {
+            background-color: #f2f2f2;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendar for Month and Year</h1>
+    <div style="text-align: center;">
+        <label for="month">Select Month:</label>
+        <select id="month">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <label for="year">Select Year:</label>
+        <select id="year">
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <!-- Add more years if needed -->
+        </select>
+        <button onclick="displayCalendar()">Show Calendar</button>
+    </div>
+
+    <div id="calendarContainer"></div>
+
+    <script>
+        function displayCalendar() {
+            var month = document.getElementById("month").value;
+            var year = document.getElementById("year").value;
+            var daysInMonth = new Date(year, month + 1, 0).getDate();
+            var firstDay = new Date(year, month, 1).getDay();
+
+            var monthNames = ["January", "February", "March", "April", "May", "June",
+                              "July", "August", "September", "October", "November", "December"];
+            
+            var calendarHTML = "<h2>" + monthNames[month] + " " + year + "</h2>";
+            calendarHTML += "<table>";
+            calendarHTML += "<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>";
+
+            var dayCounter = 1;
+            for (var i = 0; i < 6; i++) {
+                calendarHTML += "<tr>";
+                for (var j = 0; j < 7; j++) {
+                    if (i === 0 && j < firstDay) {
+                        calendarHTML += "<td></td>";
+                    } else if (dayCounter > daysInMonth) {
+                        break;
+                    } else {
+                        calendarHTML += "<td>" + dayCounter + "</td>";
+                        dayCounter++;
+                    }
+                }
+                calendarHTML += "</tr>";
+            }
+
+            calendarHTML += "</table>";
+
+            document.getElementById("calendarContainer").innerHTML = calendarHTML;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex No: 13 : Date Handling - calendar for the month and year by combo box
+Aim: To understand the date in java Script. a) Write a JavaScript program to display the current day and time in the following format. Sample Output : Today is : Friday. Current time is : 4 PM : 50 : 22 b) Write a JavaScript program to get the current date. Expected Output : mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+c) Write a JavaScript function to get difference between two dates in days.
+Test Data : console.log(date_diff_indays('04/02/2014', '11/04/2014')); console.log(date_diff_indays('12/02/2014', '11/04/2014')); Output : 216 -28
+d) 16. Write a JavaScript function to count the number of days passed since beginning of the year. Go to the editor
+Test Data : console.log(days_passed(new Date(2015, 0, 15))); 15 console.log(days_passed(new Date(2015, 11, 14))); 348 e) Write a JavaScript program to find 1st January is being a Sunday between year1 and year2. f) Write a JavaScript program to calculate days left until next Christmas.
+g) Write a JavaScript program to calculate days remains in your birthday.
+
+
+
+INPUT : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Handling</title>
+</head>
+<body>
+    <h2>a) Display current day and time:</h2>
+    <p id="currentDateTime"></p>
+
+    <h2>b) Get the current date:</h2>
+    <p id="currentDate"></p>
+
+    <h2>c) Difference between two dates in days:</h2>
+    <p id="dateDiff"></p>
+
+    <h2>d) Number of days passed since the beginning of the year:</h2>
+    <p id="daysPassed"></p>
+
+    <h2>e) 1st January being a Sunday between year1 and year2:</h2>
+    <p id="jan1Sunday"></p>
+
+    <h2>f) Days left until next Christmas:</h2>
+    <p id="daysUntilChristmas"></p>
+
+    <h2>g) Days remains until your birthday:</h2>
+    <p id="daysUntilBirthday"></p>
+
+    <script>
+        // a) Display current day and time
+        var currentDateTime = new Date();
+        var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var hours = currentDateTime.getHours();
+        var minutes = currentDateTime.getMinutes();
+        var seconds = currentDateTime.getSeconds();
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        var formattedTime = hours + ' ' + ampm + ' : ' + minutes + ' : ' + seconds;
+        document.getElementById('currentDateTime').innerHTML = 'Today is : ' + dayNames[currentDateTime.getDay()] + '. Current time is : ' + formattedTime;
+
+        // b) Get the current date
+        var currentDate = new Date();
+        var dd = String(currentDate.getDate()).padStart(2, '0');
+        var mm = String(currentDate.getMonth() + 1).padStart(2, '0');
+        var yyyy = currentDate.getFullYear();
+        document.getElementById('currentDate').innerHTML = 'Current date is: ' + mm + '-' + dd + '-' + yyyy;
+
+        // c) Difference between two dates in days
+        function date_diff_indays(date1, date2) {
+            var dt1 = new Date(date1);
+            var dt2 = new Date(date2);
+            var diff = Math.abs(dt1.getTime() - dt2.getTime());
+            return Math.ceil(diff / (1000 * 60 * 60 * 24));
+        }
+        var diff1 = date_diff_indays('04/02/2014', '11/04/2014');
+        var diff2 = date_diff_indays('12/02/2014', '11/04/2014');
+        document.getElementById('dateDiff').innerHTML = 'Difference between dates: ' + diff1 + ', ' + diff2;
+
+        // d) Number of days passed since the beginning of the year
+        function days_passed(date) {
+            var startOfYear = new Date(date.getFullYear(), 0, 0);
+            var diff = date - startOfYear;
+            var oneDay = 1000 * 60 * 60 * 24;
+            var day = Math.floor(diff / oneDay);
+            return day;
+        }
+        var days1 = days_passed(new Date(2015, 0, 15));
+        var days2 = days_passed(new Date(2015, 11, 14));
+        document.getElementById('daysPassed').innerHTML = 'Days passed since the beginning of the year: ' + days1 + ', ' + days2;
+
+        // e) 1st January being a Sunday between year1 and year2
+        function firstJanSunday(year1, year2) {
+            for (var year = year1; year <= year2; year++) {
+                var jan1 = new Date(year, 0, 1);
+                if (jan1.getDay() === 0) {
+                    return year;
+                }
+            }
+            return -1;
+        }
+        var sundayYear = firstJanSunday(2022, 2030);
+        document.getElementById('jan1Sunday').innerHTML = '1st January being a Sunday between 2022 and 2030: ' + sundayYear;
+
+        // f) Days left until next Christmas
+        var today = new Date();
+        var nextChristmas = new Date(today.getFullYear(), 11, 25);
+        if (today.getMonth() == 11 && today.getDate() > 25) {
+            nextChristmas.setFullYear(nextChristmas.getFullYear() + 1);
+        }
+        var daysUntilChristmas = Math.ceil((nextChristmas - today) / (1000 * 60 * 60 * 24));
+        document.getElementById('daysUntilChristmas').innerHTML = 'Days left until next Christmas: ' + daysUntilChristmas;
+
+        // g) Days remains until your birthday
+        var birthday = new Date(today.getFullYear(), 9, 25); // Example birthday date: October 25th
+        if (today.getMonth() > 9 || (today.getMonth() === 9 && today.getDate() > 25)) {
+            birthday.setFullYear(birthday.getFullYear() + 1);
+        }
+        var daysUntilBirthday = Math.ceil((birthday - today) / (1000 * 60 * 60 * 24));
+        document.getElementById('daysUntilBirthday').innerHTML = 'Days remains until your birthday: ' + daysUntilBirthday;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+
+CHEAT SHEET 
+
+
+Q1 Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Triangle</title>
+</head>
+<body>
+    <h2>Area of Triangle</h2>
+    <p>The lengths of the three sides of the triangle are 5, 6, and 7.</p>
+    <p id="result"></p>
+
+    <script>
+        // area of a triangle using Heron's formula
+        function areaOfTriangle(side1, side2, side3) {
+            //  semi-perimeter
+            var s = (side1 + side2 + side3) / 2;
+            
+            //  Heron's formula
+            var area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+            return area;
+        }
+
+       
+        var side1 = 5;
+        var side2 = 6;
+        var side3 = 7;
+
+        
+        var triangleArea = areaOfTriangle(side1, side2, side3);
+
+        
+        document.getElementById("result").innerHTML = "Area of the triangle: " + triangleArea.toFixed(2);
+    </script>
+</body>
+</html>
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+Q2
+Write a JavaScript program to find volume of sphere 
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume of Sphere</title>
+</head>
+<body>
+    <h2>Volume of Sphere</h2>
+    <p>The radius of the sphere is 5 units.</p>
+    <p id="result"></p>
+
+    <script>
+        //  volume of a sphere
+        function volumeOfSphere(radius) {
+            var volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
+            return volume;
+        }
+
+        
+        var radius = 5;
+
+        
+        var sphereVolume = volumeOfSphere(radius);
+
+        document.getElementById("result").innerHTML = "Volume of the sphere: " + sphereVolume.toFixed(2) + " cubic units";
+    </script>
+</body>
+</html>
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Q3 Design a navbar or navigation menu a drop down menu using html, css and javascript.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+       
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+       
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+      
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+      
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+       
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+       
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <div class="dropdown">
+        <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Web Development</a>
+            <a href="#">Graphic Design</a>
+            <a href="#">Digital Marketing</a>
+        </div>
+    </div>
+    <a href="#">Contact</a>
+</div>
+
+</body>
+</html>
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Q4   Create a html page   when you click on the body it should hover or the text should hover and change the background color.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Text and Change Background Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            transition: background-color 0.5s;
+        }
+
+        h1:hover {
+            text-shadow: 2px 2px 4px #888888;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onclick="changeBackgroundColor()">
+    <h1>Click Anywhere to Change Background Color</h1>
+
+    <script>
+        function changeBackgroundColor() {
+            var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16); // Generate random hex color code
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 1. Display current day and time
+function displayDateTime() {
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const now = new Date();
+    const day = days[now.getDay()];
+    let hours = now.getHours();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12;
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    console.log(`Today is: ${day}. Current time is: ${hours} ${ampm} : ${minutes} : ${seconds}`);
+}
+
+displayDateTime();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 2. Print contents of the current window
+function printWindowContents() {
+    window.print();
+}
+
+printWindowContents();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 3. Get current date
+function getCurrentDate() {
+    const now = new Date();
+    const mm = (now.getMonth() + 1).toString().padStart(2, '0');
+    const dd = now.getDate().toString().padStart(2, '0');
+    const yyyy = now.getFullYear();
+    console.log(`${mm}-${dd}-${yyyy}`);
+    // or console.log(`${mm}/${dd}/${yyyy}`);
+    // or console.log(`${dd}-${mm}-${yyyy}`);
+    // or console.log(`${dd}/${mm}/${yyyy}`);
+}
+
+getCurrentDate();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 4. Find the area of a triangle
+function triangleArea(side1, side2, side3) {
+    const s = (side1 + side2 + side3) / 2;
+    const area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+    return area;
+}
+
+console.log(triangleArea(5, 6, 7));
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 5. Rotate a string
+function rotateString(str) {
+    return str[str.length - 1] + str.substring(0, str.length - 1);
+}
+
+let str = 'w3resource';
+for (let i = 0; i < str.length; i++) {
+    str = rotateString(str);
+    console.log(str);
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 6. Check leap year
+function isLeapYear(year) {
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+console.log(isLeapYear(2024)); // Example usage
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 7. Find 1st January being a Sunday
+function findFirstJanSunday() {
+    for (let year = 2014; year <= 2050; year++) {
+        const date = new Date(year, 0, 1);
+        if (date.getDay() === 0) {
+            console.log(`1st January is a Sunday in the year ${year}`);
+        }
+    }
+}
+
+findFirstJanSunday();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 8. Guessing game
+function guessNumber() {
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
+    const userGuess = prompt("Guess a number between 1 and 10:");
+    if (parseInt(userGuess) === randomNumber) {
+        alert("Good Work");
+    } else {
+        alert(`Not matched, the number was ${randomNumber}`);
+    }
+}
+
+guessNumber();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 9. Days left until next Christmas
+function daysUntilChristmas() {
+    const today = new Date();
+    const christmas = new Date(today.getFullYear(), 11, 25);
+    if (today.getMonth() === 11 && today.getDate() > 25) {
+        christmas.setFullYear(christmas.getFullYear() + 1);
+    }
+    const oneDay = 1000 * 60 * 60 * 24;
+    const daysLeft = Math.ceil((christmas - today) / oneDay);
+    console.log(`Days until next Christmas: ${daysLeft}`);
+}
+
+daysUntilChristmas();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 10. Multiplication and division of two numbers
+function multiplyAndDivide() {
+    const num1 = parseFloat(prompt("Enter first number:"));
+    const num2 = parseFloat(prompt("Enter second number:"));
+    const multiplication = num1 * num2;
+    const division = num1 / num2;
+    console.log(`Multiplication: ${multiplication}`);
+    console.log(`Division: ${division}`);
+}
+
+multiplyAndDivide();
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 1. Check if input is a string
+function isString(input) {
+    return typeof input === 'string';
+}
+
+console.log(isString('Graphic era University')); // true
+console.log(isString([1, 2, 4, 0])); // false
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 2. Check if a string is blank
+function isBlank(str) {
+    return !str.trim();
+}
+
+console.log(isBlank('')); // true
+console.log(isBlank('abc')); // false
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 3. Split a string into an array of words
+function stringToArray(str) {
+    return str.split(' ');
+}
+
+console.log(stringToArray("Robin Singh")); // ["Robin", "Singh"]
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 4. Remove specified number of characters from a string
+function truncateString(str, num) {
+    return str.slice(0, num);
+}
+
+console.log(truncateString("Robin Singh", 4)); // "Robi"
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+// 5. Convert a string into abbreviated form
+function abbrevName(str) {
+    const words = str.split(' ');
+    const abbreviated = words[0] + ' ' + words[1].charAt(0) + '.';
+    return abbreviated;
+}
+
+console.log(abbrevName("Robin Singh")); // "Robin S."
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 6. Hide email addresses
+function protectEmail(email) {
+    const atIndex = email.indexOf('@');
+    const prefix = email.slice(0, atIndex);
+    const hidden = prefix.slice(0, Math.ceil(prefix.length / 2)) + '...';
+    return hidden + email.slice(atIndex);
+}
+
+console.log(protectEmail("robin_singh@example.com")); // "robin...@example.com"
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 7. Parameterize a string
+function stringParameterize(str) {
+    return str.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '-');
+}
+
+console.log(stringParameterize("Robin Singh from INDIA.")); // "robin-singh-from-india"
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 8. Capitalize the first letter of a string
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+console.log(capitalize('js string exercises')); // "Js string exercises"
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+// 10. Swap case of letters in a string
+function swapcase(str) {
+    return str.replace(/[a-zA-Z]/g, function (char) {
+        return char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase();
+    });
+}
+
+console.log(swapcase('AaBbc')); // "aAbBC"
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
